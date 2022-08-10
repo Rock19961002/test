@@ -1,0 +1,334 @@
+body {
+background-image: url("images/login/loginBac.jpg");;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+#login_frame {
+width: 400px;
+height: 260px;
+padding: 13px;
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -200px;
+margin-top: -200px;
+background-color: rgba(63, 64, 64, 0.222);
+border-radius: 10px;
+text-align: center;
+}
+form p > * {
+display: inline-block;
+vertical-align: middle;
+}
+#image_logo {
+margin-top: 22px;
+}
+.label_input {
+font-size: 14px;
+font-family: 宋體;
+width: 80px;
+height: 30px;
+line-height: 28px;
+text-align: center;
+color: rgb(255, 255, 255)  ;
+background-color: #000000;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.text_field {
+width: 278px;
+height: 28px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border: 0;
+}
+#btn_login {
+font-size: 14px;
+font-family: 宋體;
+width: 120px;
+height: 28px;
+line-height: 28px;
+text-align: center;
+color: white;
+background-color: #010715;
+border-radius: 6px;
+border: 0;
+float: left;
+}
+#forget_pwd {
+font-size: 12px;
+color: rgb(0, 0, 0);
+text-decoration: none;
+position: relative;
+float: right;
+top: 5px;
+}
+#forget_pwd:hover {
+color: blue;
+text-decoration: underline;
+}
+#login_control {
+padding: 0 28px;
+}
+#login_forge{
+font-size: 14px;
+font-family: 宋體;
+width: 120px;
+height: 28px;
+line-height: 28px;
+text-align: center;
+color: white;
+background-color: #010715;
+border-radius: 6px;
+border: 0;
+float: left;
+}
+
+/* ------------------function-------------------------- */
+
+#function_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(63, 64, 64, 0.222);
+    border-radius: 10px;
+    text-align: center;
+    }
+
+
+#btn_add {
+    font-size: 14px;
+    font-family: 宋體;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 35%;
+    top: 30%;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #010715;
+    border-radius: 6px;
+    border: 0;
+    float: left; 
+}
+
+#btn_view {
+    font-size: 14px;
+    font-family: 宋體;
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 35%;
+    top: 50%;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    background-color: #010715;
+    border-radius: 6px;
+    border: 0;
+    float: left; 
+}
+
+
+
+    /* -----------------choice---- ---------------------- */
+
+    #choice_frame {
+        width: 400px;
+        height: 260px;
+        padding: 13px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -200px;
+        margin-top: -200px;
+        background-color: rgba(63, 64, 64, 0.222);
+        border-radius: 10px;
+        text-align: center;
+        }
+
+    #logout{
+        font-size: 14px;
+        font-family: 宋體;
+        width: 120px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+        position: absolute;
+        left: 20%;
+        top: 85%; 
+    }
+
+    #view{
+        font-size: 14px;
+        font-family: 宋體;
+        width: 120px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left;
+        position: absolute;
+        left: 50%;
+        top: 85%;  
+    }
+
+
+
+    
+    /* ------------------send-------------------------- */
+    
+    #send_frame {
+        width: 400px;
+        height: 260px;
+        padding: 13px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -200px;
+        margin-top: -200px;
+        background-color: rgba(63, 64, 64, 0.222);
+        border-radius: 10px;
+        text-align: center;
+        }
+    
+    #btn_bac {
+        font-size: 14px;
+        font-family: 宋體;
+        position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 35%;
+        top: 30%;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+    }
+
+    #btn_check {
+        font-size: 14px;
+        font-family: 宋體;
+        position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 35%;
+        top: 50%;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+    }
+     
+/* ------------------send-------------------------- */
+    
+#ready_frame {
+    width: 400px;
+    height: 260px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(63, 64, 64, 0.222);
+    border-radius: 10px;
+    text-align: center;
+    }
+
+    #btn_already {
+        font-size: 14px;
+        font-family: 宋體;
+        position: absolute;
+        width: 120px;
+        height: 30px;
+        left: 35%;
+        top: 30%;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+    }
+
+
+    /* ------------------view-------------------------- */
+    
+    #view_frame {
+        width: 400px;
+        height: 500px;
+        padding: 13px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -200px;
+        margin-top: -200px;
+        background-color: rgba(63, 64, 64, 0.222);
+        border-radius: 10px;
+        text-align: center;
+        }
+
+    table{
+        margin: 20px auto;
+        font-size:26px;
+        position: absolute;
+        left: 9%;
+        top: 4%;
+        
+      }
+
+#btn_back {
+        font-size: 14px;
+        font-family: 宋體;
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 23%;
+        top: 90%;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+    }
+
+    #btn_out {
+        font-size: 14px;
+        font-family: 宋體;
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        left: 60%;
+        top: 90%;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+        background-color: #010715;
+        border-radius: 6px;
+        border: 0;
+        float: left; 
+    }
